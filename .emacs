@@ -5,6 +5,10 @@
 (require 'flymake)
 (require 'flymake-cursor)
 
+(custom-set-faces
+ '(flymake-errline ((((class color)) (:underline "red"))))
+ '(flymake-warnline ((((class color)) (:underline "yellow")))))
+
 (global-set-key [f4] 'flymake-goto-next-error)
 
 (defun my-flymake-show-help ()
