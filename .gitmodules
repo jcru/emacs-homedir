@@ -4,3 +4,6 @@
 [submodule ".emacs.d/lisp/emacs-flymake-cursor"]
 	path = .emacs.d/lisp/emacs-flymake-cursor
 	url = https://github.com/illusori/emacs-flymake-cursor.git
+[submodule ".emacs.d/lisp/better-defaults"]
+	path = .emacs.d/lisp/better-defaults
+	url = https://github.com/technomancy/better-defaults.git

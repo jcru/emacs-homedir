@@ -4,6 +4,7 @@
 
 (require 'flymake)
 (require 'flymake-cursor)
+(require 'better-defaults)
 
 (custom-set-faces
  '(flymake-errline ((((class color)) (:underline "red"))))
